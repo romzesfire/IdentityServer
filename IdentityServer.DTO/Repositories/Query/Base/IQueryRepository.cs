@@ -1,0 +1,8 @@
+﻿namespace IdentityServer.DTO.Repositories.Query.Base
+{
+    // Generic repository for query
+    public interface IQueryRepository <T> where T : class
+    {
+        // Generic repository for all if any
+    }
+}
